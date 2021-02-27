@@ -28,7 +28,7 @@ for y in range(1,h-1):
 t2 = cv2.getTickCount()
 time = (t2 - t1)/ cv2.getTickFrequency()
 print("Méthode directe :",time,"s")
-print("qwerty")
+
 
 plt.subplot(121)
 plt.imshow(img2,cmap = 'gray')
