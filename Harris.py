@@ -9,6 +9,7 @@ img=np.float64(cv2.imread('/home/nico/Documents/MI204/TP1/TP1_Features/Image_Pai
 (h,w) = img.shape
 print("Dimension de l'image :",h,"lignes x",w,"colonnes")
 print("Type de l'image :",img.dtype)
+print('Holiwi :3')
 
 #Début du calcul
 t1 = cv2.getTickCount()
